@@ -19,6 +19,23 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
+
+a {
+  text-decoration: none;
+  color: rgba(74, 75, 76, 1);
+}
+
+h3 {
+  color:rgba(0, 0, 0, 1);
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
 /* Rubik 700 , 400 , 500
 font-family: 'Open Sans', sans-serif;
 font-family: 'Rubik', 'Open Sans', sans-serif;
@@ -161,4 +178,33 @@ strong {
 
 }
 
-/* MAin content */
+/* Main content */
+
+ /* NEWS CARD */
+.news-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.news-card {
+  width: 376px;
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 17px;
+  padding-right: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+
+.news-card-source {
+  display: flex;
+  align-items: center;
+}
+.news-card-source-text {
+  margin-left: 10px;
+  font-size: 12px;
+}
