@@ -36,6 +36,12 @@ img {
   display: block;
   object-fit: cover;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 /* Rubik 700 , 400 , 500
 font-family: 'Open Sans', sans-serif;
 font-family: 'Rubik', 'Open Sans', sans-serif;
@@ -250,11 +256,19 @@ strong {
 }
 
 /* In the world */
+.main {
+  display: flex;
+  justify-content: space-between;
+}
 .main-content-heading {
   margin-top: 60px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
+.main-content-list{
+  margin: 0;
+  padding: 0;
+}
 .main-content-item {
   display: flex;
   align-items: center;
@@ -278,16 +292,69 @@ strong {
 .main-content-text-heading {
   font-size: 20px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
 .main-content-icon {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 17px;
 }
 .main-content-icon-image {
   margin-right: 10px;
+}
+.main-content-icon-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.main-content-button {
+  background-color: rgba(234, 234, 234, 1);
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 327px;
+  padding-left: 327px;
+  border-color: transparent;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
 
+/* Main-content-uz */
+
+.main-content-uz {
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 15px;
+  padding-bottom: 25px;
+  margin-left: 10px;
+}
+.main-content-uz-heading {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 17px;
+}
+.uzbek-news-item-heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 17px;
+}
+.uzbek-news-item-text {
+  padding-left: 17px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+.main-content-uz li:not(:last-child) {
+  border-bottom: 1px solid rgba(210, 210, 210, 1);
+}
+.olmos-ads {
+  margin-top: 10px;
+  margin-left: 10px;
 }
