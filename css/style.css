@@ -327,7 +327,7 @@ strong {
 .main-content-uz {
   background-color: rgba(246, 246, 246, 1);
   border-radius: 15px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   margin-left: 10px;
 }
 .main-content-uz-heading {
@@ -351,10 +351,77 @@ strong {
   font-size: 13px;
   line-height: 15px;
 }
-.main-content-uz li:not(:last-child) {
+/* .main-content-uz li:not(:last-child) {
   border-bottom: 1px solid rgba(210, 210, 210, 1);
+} */
+hr {
+  width: 345px;
+  height: 0;
+  background-color: #D2D2D2;
+  margin-top: 20px;
 }
 .olmos-ads {
   margin-top: 10px;
   margin-left: 10px;
+  width:"375";
+  height:"338";
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgba(114, 151, 239, 1);
+  margin-top: 100px;
+}
+.footer-container {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.footer-logo-link {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.footer-info {
+display: flex;
+align-items: center;
+justify-content: space-between;
+color:rgba(255, 255, 255, 1);
+}
+.footer-info-text {
+
+  width: 230px;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px
+}
+.footer-links a {
+  color:rgba(255, 255, 255, 1);
+}
+.footer-hr {
+ background-color: rgba(206, 206, 206, 1);
+ margin-top: 30px;
+ margin-bottom: 20px;
+ width: 998px;
+ margin-right: auto;
+ margin-left: auto;
+}
+.socials-text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 23px
+}
+.socials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-ul {
+  display: flex;
+  align-items: center;
+}
+.footer-ul li:not(:last-child) {
+  margin-right: 33px;
 }
