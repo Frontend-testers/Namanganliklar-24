@@ -2,22 +2,42 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 body{
-  font-family:'Rubik', 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family:'Rubik', 'Arial' ,'Open Sans', sans-serif;
   font-size: 16px;
+  line-height: 22px;
   font-weight: 400;
-  line-height: 1.5;
-  color: #222;
+  background-color: #fff;
+  color: #4a4b4c;
   letter-spacing: 1px;
 }
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1240px;
   padding-right: 20px;
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+
+button {
+  cursor: pointer;
+  line-height: normal;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.6;
 }
 
 a {
@@ -68,6 +88,13 @@ font-family: 'Rubik', 'Open Sans', sans-serif;
   border-radius: 7px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-right: 35px;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
 }
 .logo-link {
   text-decoration: none;
@@ -106,37 +133,32 @@ strong {
 }
 
 .language-container {
+  display: flex;
   background-color: #DCE6FF;
   border: transparent;
   border-radius: 39px;
-  padding: 10px 10px;
+  padding: 3px;
+  font-size: 13px;
   /* width: 76px; */
   margin-right: 25px;
 }
 .language-link {
   text-decoration: none;
+  border-radius:50%;
   color:rgba(166, 166, 166, 1);
   font-weight: 400;
-  font-style: 13px;
-
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 50%;
 }
-.language-link:hover {
+.language-link-active {
   background-color: #fff;
   color: #000;
-  border-color: transparent;
-  border-radius: 50%;
-  padding: 8px 7px;
 }
-.language-link:active {
-  background-color: #fff;
-  color: #000;
-  border-color: transparent;
-  border-radius: 50%;
-  padding: 8px 7px;
-}
-/* .language-link:not(last-child){
-  margin-right: 15px;
-} */
 
 
 .header-button {
@@ -147,6 +169,7 @@ strong {
   border-radius: 10px;
   width: 89px;
   border-color: transparent;
+
 }
 
 /* NAVIGATION BAR */
